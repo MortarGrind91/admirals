@@ -1,0 +1,55 @@
+.info-animated {
+  animation: info-animated linear 0.5s forwards;
+}
+
+.image-animated {
+  animation: image-animated linear 0.5s forwards;
+}
+
+.cart-1 {
+  animation: cart-animated linear 0.5s forwards;
+}
+.cart-2 {
+  animation: cart-animated linear 0.75s forwards;
+}
+.cart-3 {
+  animation: cart-animated linear 1s forwards;
+}
+.cart-4 {
+  animation: cart-animated linear 1.25s forwards;
+}
+
+@keyframes info-animated {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes image-animated {
+  from {
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes cart-animated {
+  from {
+    transform: translateY(700px);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}

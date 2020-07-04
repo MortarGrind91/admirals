@@ -1,0 +1,115 @@
+@import '../main';
+
+.carts {
+  padding-top: 130px;
+}
+
+.cart-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 0 60px;
+  overflow: hidden;
+}
+
+.cart {
+  &:not(:first-child) {
+    margin-left: 29px;
+  }
+  height: 331px;
+  overflow: hidden;
+  box-shadow: 0px 6px 9px #a55e0040;
+  border-radius: 4px;
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  &-title {
+    font-family: $secondery-font;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    color: $white;
+  }
+
+  &-subtitle {
+    font-size: 14px;
+    letter-spacing: 0.56px;
+    color: $white;
+    padding-bottom: 25px;
+  }
+
+  &-price {
+    padding-top: 10px;
+    color: $white;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+  }
+
+  &-image {
+    transition: 0.5s;
+    transform: translateY(0);
+    &:hover {
+      transition: 0.5s;
+      transform: translateY(-15px);
+    }
+  }
+
+  &-order {
+    position: absolute;
+    left: calc(50% - 95px);
+    bottom: 30px;
+    z-index: 1;
+  }
+
+  .btn {
+    box-shadow: 0px 6px 9px #a55e00bf;
+  }
+}
+
+.cart-1 {
+  background: transparent linear-gradient(180deg, #f3ca22 0%, #d87a00 100%) 0% 0% no-repeat
+    padding-box;
+  &:before {
+    background: transparent linear-gradient(180deg, #f3ca2200 0%, #d87a00 100%) 0% 0% no-repeat
+      padding-box;
+  }
+}
+
+.cart-2 {
+  background: transparent linear-gradient(180deg, #e75300 0%, #531e00 100%) 0% 0% no-repeat
+    padding-box;
+  &:before {
+    background: transparent linear-gradient(180deg, #e7530000 0%, #531e00 100%) 0% 0% no-repeat
+      padding-box;
+  }
+}
+
+.cart-3 {
+  background: transparent linear-gradient(180deg, #cc0000 0%, #390000 100%) 0% 0% no-repeat
+    padding-box;
+  &:before {
+    background: transparent linear-gradient(180deg, #7a020000 0%, #000000 100%) 0% 0% no-repeat
+      padding-box;
+  }
+}
+
+.cart-4 {
+  background: transparent linear-gradient(180deg, #7a0200 0%, #000000 100%) 0% 0% no-repeat
+    padding-box;
+  &:before {
+    background: transparent linear-gradient(180deg, #7a020000 0%, #000000 100%) 0% 0% no-repeat
+      padding-box;
+  }
+}
+
+@import '../media';

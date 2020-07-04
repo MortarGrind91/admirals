@@ -1,0 +1,36 @@
+@import 'vars';
+@import 'fonts';
+
+// Blocks
+@import 'blocks/header';
+@import 'blocks/banner';
+
+// Parts
+@import 'parts/typography';
+@import 'parts/animation';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $default-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+// For Safari
+input,
+textarea,
+input[type='submit'] {
+  appearance: none;
+}

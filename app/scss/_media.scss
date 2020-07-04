@@ -1,0 +1,73 @@
+@import 'vars';
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .decor {
+    display: none;
+  }
+  .header-menu__list-item {
+    margin-left: 20px;
+  }
+  .header-logo {
+    margin-left: 45px;
+  }
+  .banner-wrapper {
+    margin-left: 0;
+  }
+  .cart {
+    &:not(:first-child) {
+      margin-left: 0;
+    }
+    margin: 20px 20px 0;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .header {
+    &-info {
+      display: none;
+    }
+  }
+  .banner-info {
+    margin-right: 10px;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .header {
+    &-menu {
+      display: none;
+    }
+  }
+  .banner {
+    &-wrapper {
+      padding-top: 20px;
+    }
+    &-image {
+      display: none;
+    }
+  }
+  .carts {
+    padding-top: 50px;
+  }
+  .cart {
+    margin: 10px 5px 0;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .btn {
+    width: 120px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .cart-order {
+    left: calc(50% - 60px);
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}

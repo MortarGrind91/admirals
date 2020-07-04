@@ -1,0 +1,50 @@
+p {
+  font-weight: 300;
+}
+
+.btn {
+  background-color: $white;
+  font-family: $default-font;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.56px;
+  color: $orange;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px #a55e00bf;
+  width: 191px;
+  height: 40px;
+  max-width: 100%;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  &.btn-gradient {
+    color: $white;
+    background: transparent linear-gradient(269deg, #e28527 0%, #d55223 100%) 0% 0% no-repeat
+      padding-box;
+    box-shadow: 0px 3px 6px #d552234d;
+  }
+  &.btn-outline {
+    border: 2px solid $white;
+    background-color: transparent;
+    color: $white;
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+}
+
+.title {
+  font-family: $secondery-font;
+  text-align: center;
+  letter-spacing: 1.44px;
+  color: $orange;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.text-block {
+  display: block;
+}
