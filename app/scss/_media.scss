@@ -14,7 +14,7 @@
   .banner-wrapper {
     margin-left: 0;
   }
-  .cart {
+  .card {
     &:not(:first-child) {
       margin-left: 0;
     }
@@ -47,10 +47,10 @@
       display: none;
     }
   }
-  .carts {
+  .cards {
     padding-top: 50px;
   }
-  .cart {
+  .card {
     margin: 10px 5px 0;
   }
 }
@@ -64,7 +64,7 @@
     font-size: 28px;
     line-height: 36px;
   }
-  .cart-order {
+  .card-order {
     left: calc(50% - 60px);
   }
 }

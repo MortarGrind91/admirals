@@ -1,10 +1,10 @@
 @import '../main';
 
-.carts {
+.cards {
   padding-top: 130px;
 }
 
-.cart-box {
+.card-box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -12,7 +12,7 @@
   overflow: hidden;
 }
 
-.cart {
+.card {
   &:not(:first-child) {
     margin-left: 29px;
   }
@@ -76,7 +76,7 @@
   }
 }
 
-.cart-1 {
+.card-1 {
   background: transparent linear-gradient(180deg, #f3ca22 0%, #d87a00 100%) 0% 0% no-repeat
     padding-box;
   &:before {
@@ -85,7 +85,7 @@
   }
 }
 
-.cart-2 {
+.card-2 {
   background: transparent linear-gradient(180deg, #e75300 0%, #531e00 100%) 0% 0% no-repeat
     padding-box;
   &:before {
@@ -94,7 +94,7 @@
   }
 }
 
-.cart-3 {
+.card-3 {
   background: transparent linear-gradient(180deg, #cc0000 0%, #390000 100%) 0% 0% no-repeat
     padding-box;
   &:before {
@@ -103,7 +103,7 @@
   }
 }
 
-.cart-4 {
+.card-4 {
   background: transparent linear-gradient(180deg, #7a0200 0%, #000000 100%) 0% 0% no-repeat
     padding-box;
   &:before {

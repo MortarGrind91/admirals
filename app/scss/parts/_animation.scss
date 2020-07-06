@@ -6,17 +6,17 @@
   animation: image-animated linear 0.5s forwards;
 }
 
-.cart-1 {
-  animation: cart-animated linear 0.5s forwards;
+.card-1 {
+  animation: card-animated linear 0.5s forwards;
 }
-.cart-2 {
-  animation: cart-animated linear 0.75s forwards;
+.card-2 {
+  animation: card-animated linear 0.75s forwards;
 }
-.cart-3 {
-  animation: cart-animated linear 1s forwards;
+.card-3 {
+  animation: card-animated linear 1s forwards;
 }
-.cart-4 {
-  animation: cart-animated linear 1.25s forwards;
+.card-4 {
+  animation: card-animated linear 1.25s forwards;
 }
 
 @keyframes info-animated {
@@ -43,7 +43,7 @@
   }
 }
 
-@keyframes cart-animated {
+@keyframes card-animated {
   from {
     transform: translateY(700px);
     opacity: 0;
